@@ -14,7 +14,7 @@ function framework_detection() {
 "PHP/Symfony2")
     echo "Symfony 2.x detected" | indent_head
     WEBCONTENT=${WEBCONTENT:-'web'}
-    echo 'date.timezone = "UTC";' > ${PHP_CONFIGS_PATH}/symfony2.ini
+    echo "date.timezone = \"UTC\";" > ${PHP_CONFIGS_PATH}/symfony2.ini
     clean_directory app/cache
     clean_directory app/logs
     ;;
