@@ -32,6 +32,7 @@ export LD_LIBRARY_PATH=${PHP_DIR}
 --enable-gd-native-ttf=shared \
 --enable-intl=shared \
 --enable-mbstring=shared \
+--enable-ldap=shared \
 --enable-mysqlnd=shared \
 --enable-opcache=shared \
 --enable-pdo=shared \
