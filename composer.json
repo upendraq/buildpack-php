@@ -1,0 +1,11 @@
+{
+    "name": "buildpack-php",
+    "description": "Application's description",
+    "license": "MIT",
+    "keywords": ["heroku", "foreman", "php", "hhvm", "apache", "apache2", "nginx"],
+    "homepage": "https://github.com/upendraq/buildpack-php",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    }
+}
